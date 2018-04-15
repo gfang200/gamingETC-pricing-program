@@ -24,7 +24,7 @@ Use web scraping technology and market analytics to determine the fair market va
 
 The Challenge
 --------------- 
-As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a real competitive advantage as the actor who can best optimize on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect their data and their market position. <br/>
+As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a competitive advantage by optimizing prices on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect this data. <br/>
 
 The largest, and most reputable of these data holding companies, www.tcgplayer.com, contracts Distil Networks© (https://www.distilnetworks.com/) to prevent bots from scraping their website. Their methods involve the following:
 * Captchas
