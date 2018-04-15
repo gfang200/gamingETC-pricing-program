@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gamingetc-pricing",
+  "private_key_id": "94a6ac17df217dd2bae8886499639cfb0a3a55f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7zOERKIzY8Hdo\niesdXRb+e3jAkkRKHalXsZnKCmvY1ktjb39x58LyEyS5KJ3mqDXesA6SKXgjTdHa\nxOBcvWDS/803eg1Fi6yiTJYHnIGrbtYlae+JoZSV7QCo8aM6LKLtfXiH2EbqKHIp\nl45X1i2jauPDCo7zRLmMzmyAWD/D0204gZhOAhE1qXglVxrOobV7BaFHDg5VRUF9\nTNDmrqjcK/0QjIQnSPz7zuQiScKD1MANQkQzUU/t/+Dd3qaAhKHu3pAadSfa5sCx\n15fHpAB93cBPfQmuJlgAG9I4b48WwdbRMa/772lyZ17jAsqI6whbwSOKM3k1RY+P\nUqZXNdFpAgMBAAECggEALIZsrhbBHgYVKXHZjoKtmvRHMtD649+YcLQo1CAYZbaY\n9SBQRP8/1wj24fdhSHiFHSD8s2allykyIf4fe51iwWPokcicMOrmqSwjPfa7P5vt\npb0yD52BjvI7/9IacwZ2MnxXAU4jsgyY1IecNfMPqvkCuxFbxw16OIoQa3WA2Lp1\npLz8PWEGr/ihkWCCIf8fUlDjTGwOb4Kfe3ZS/mXTZHzhvgmTMoOBctBMQ78Is3EE\nuZ0MCoCDLoHcpSNO9+bp/rZMz9MXku5fO+Dj8quT1AVTmekingpeGokpEhQdhKI7\nEskjwAOv7tJd147AQ6zcbsNJMp5diyDd3BTIFYyDyQKBgQDrbT5fMvokyKrcMxUD\nthLhTEzxoHmIayc0yH9vJ8V4mOxvT4P+pCq9rQeWiWNHCTeKUezvpYn0y9O9CMGJ\n/ovVa+EybH3E2FNRBcTZlV9FeBpjs0cEf7pxeycRXv/CG7NW0gqjPQZUee/H32dn\no9NJarWyY0XKb4cIXOiO7RiaGwKBgQDMNi4E54o2axg4VXlKwWneVz+QGDUdTPzA\nlkJq/kNY4v4TSo0QocBegexjgl+Bd+I9kFXc+viGWVlUlY0UJqpPZq318j5O6Mab\nbXafKc7J/TWtONmmB/NtcNW4Mhbv7guBmDVoZdGnf1UlCUPN4Z1DchZZfpYpMgyK\nefl16fS6ywKBgQC6FVIcezWex4HNpQ6yLUMFE4Mp5XbKbi/CF8wqNtxt8ynG3anu\nJyKlY9PAl/2Bk3Zz/UdzMHw3orhNDVO02B785VVNvtU2Nuq7+vxaIyf3x/PL5FN4\n6eCbfAUoRNeRPMXnFQRVfJG5SdxONnYMREBoIlFVnAP4+2hXIuCqwBsXCwKBgQCX\nI+5xcNEJr7/QSeqomnf5uIdx5YjCM+3JuCxWNfOwgOhdbMr1KVJQYEaN67s1/n2y\n5PW3xQRVoyGLidhNtsRMWgmcw3q8OmpsNNsbt/y14LNujmoACVhwgpebaW8yivN3\nKik1KE7AcmyZKb9GTJpxhanm+Nq4iLNhdh9c1xhrewKBgEmUM+Zj1BlJAY3lsAy9\nNMFpGmwFF2lc012JXxoiF/RYvcdnykIJliqL/bU7tEOwbIeEXRSBoXcW/04jQdsQ\nr7Xek6NtOVW4EvKRY6Qmxyt26+DOZWv9jSs07F5VSKLsiS9pqlg0sb4RRgxLOlc/\n2BDM+7sSWxF1WepcHTdrDDpO\n-----END PRIVATE KEY-----\n",
+  "client_email": "pricing-program@gamingetc-pricing.iam.gserviceaccount.com",
+  "client_id": "101072662722003160117",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pricing-program%40gamingetc-pricing.iam.gserviceaccount.com"
+}

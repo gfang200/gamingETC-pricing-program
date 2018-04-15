@@ -1,0 +1,18 @@
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.exe.config
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.exe.manifest
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.application
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.exe
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.pdb
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\bin\Debug\Gaming Ect Pricing Program.xml
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.vbproj.GenerateResource.Cache
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.exe.manifest
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.application
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.exe
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.xml
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.pdb
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\Gaming Ect Pricing Program.vbprojResolveAssemblyReference.cache
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\WindowsApplication1.setSelector.resources
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\WindowsApplication1.Debug_Menu.resources
+C:\Users\George Fang\Documents\Visual Studio 2015\Projects\Gaming Ect Pricing Program\Gaming Ect Pricing Program\obj\Debug\WindowsApplication1.frmDebugReport.resources

@@ -1,0 +1,138 @@
+﻿;
+; AutoHotkey Version: 1.x
+; Language:       English
+; Platform:       Win9x/NT
+; Author:         A.N.Other <myemail@nowhere.com>
+;
+; Script Function:
+;	Template script (you can customize this template by editing "ShellNew\Template.ahk" in your Windows folder)
+;
+
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+ran(min, max)
+ {
+   random, ran, min, max
+   return ran
+ }
+
+;if this ever breaks you should make a check to see if the </html> tag is present
+
+IELoad(wb)    ;You need to send the IE handle to the function unless you define it as global.
+{
+    If !wb    ;If wb is not a valid pointer then quit
+        Return False
+    Loop    ;Otherwise sleep for .1 seconds untill the page starts loading
+        Sleep,100
+    Until (wb.busy)
+    Loop    ;Once it starts loading wait until completes
+        Sleep,100
+    Until (!wb.busy)
+    Loop    ;optional check to wait for the page to completely load
+        Sleep,100
+    Until (wb.Document.Readystate = "Complete")
+Return True
+}
+
+;MsgBox, Hit okay to begin
+FileDelete, priceList.csv
+
+count:=0
+Loop, Read, buyList.csv
+{
+wb := ComObjCreate("InternetExplorer.Application")
+wb.Visible := False
+	Loop, parse, A_LoopReadLine, `,
+	{
+		if A_Index = 1
+		{
+			cardName := A_LoopField
+		}
+		if A_Index = 2
+		{
+		setName := A_LoopField
+		;if tcgplayer url system ever changes go to this line
+		searchName := "http://shop.tcgplayer.com/magic/setName/cardName"
+
+		;replacing spaces with correct symbol
+		StringReplace,cardName,cardName,%A_Space%,-,All
+		StringReplace,setName,setName,%A_Space%,-,All
+
+		;create correct search name
+		StringReplace,searchName,searchName,setName,%setName%	
+		StringReplace,searchName,searchName,cardName,%cardName%	
+
+
+		
+
+		wb.Navigate(searchName)
+		IELoad(wb)
+		;for the love of god never change the line below
+sleepTime =2000
+
+		sleep, % ran(sleepTime/2, sleepTime)
+		
+
+		check := wb.Document.All.Tags("h1")
+		html := wb.Document.All.Tags("html")
+
+		Loop % check.Length
+		{
+			captcha := check[A_Index-1].InnerText
+			
+			If captcha contains Pardon
+			{ 
+				SoundPlay *-1
+				wb.Visible := True
+				MsgBox, Enter Captcha and hit OK to continue %count%
+				wb.quit
+				wb := ComObjCreate("InternetExplorer.Application")
+				wb.Visible := True
+				wb.Navigate(searchName)
+				IELoad(wb)
+				sleep, % ran(sleepTime/2, sleepTime)
+
+				check := wb.Document.All.Tags("h1")
+				html := wb.Document.All.Tags("html")
+				
+
+			}
+		}
+
+
+		startingHTML := html[0].InnerText
+		StringReplace, finalHTML, startingHTML,`,,,All
+		StringReplace, finalHTML, finalHTML,`n,,All
+
+		
+		;StringReplace,finalLine,A_LoopReadLine,UniqueID,%finalHTML%~
+		finalLine := A_LoopReadLine
+		appendLine = %finalLine%,%finalHTML%~
+		
+		;msgBox %appendLine%
+
+		FileAppend, %appendLine%, priceList.csv
+
+		wb.quit
+
+		
+
+
+		
+		
+		}
+	}
+	
+}
+;msgBox %uniqueID%
+MsgBox,1,Gaming Etc Pricing Program,Step 2 has finished!
+ExitApp
+return
+
+F12::
+reload
+
+F9::
+Pause Toggle

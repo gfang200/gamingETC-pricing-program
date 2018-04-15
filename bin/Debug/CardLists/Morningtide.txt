@@ -1,0 +1,150 @@
+Ballyrush Banneret~Morningtide~0
+Battletide Alchemist~Morningtide~0
+Burrenton Bombardier~Morningtide~0
+Burrenton Shield-Bearers~Morningtide~0
+Cenn's Tactician~Morningtide~0
+Changeling Sentinel~Morningtide~0
+Coordinated Barrage~Morningtide~0
+Daily Regimen~Morningtide~0
+Feudkiller's Verdict~Morningtide~0
+Forfend~Morningtide~0
+Graceful Reprieve~Morningtide~0
+Idyllic Tutor~Morningtide~0
+Indomitable Ancients~Morningtide~0
+Kinsbaile Borderguard~Morningtide~0
+Kinsbaile Cavalier~Morningtide~0
+Kithkin Zephyrnaut~Morningtide~0
+Meadowboon~Morningtide~0
+Mosquito Guard~Morningtide~0
+Order of the Golden Cricket~Morningtide~0
+Preeminent Captain~Morningtide~0
+Redeem the Lost~Morningtide~0
+Reveillark~Morningtide~0
+Shinewend~Morningtide~0
+Stonehewer Giant~Morningtide~0
+Stonybrook Schoolmaster~Morningtide~0
+Swell of Courage~Morningtide~0
+Wandering Graybeard~Morningtide~0
+Weight of Conscience~Morningtide~0
+Declaration of Naught~Morningtide~0
+Dewdrop Spy~Morningtide~0
+Disperse~Morningtide~0
+Distant Melody~Morningtide~0
+Fencer Clique~Morningtide~0
+Floodchaser~Morningtide~0
+Grimoire Thief~Morningtide~0
+Ink Dissolver~Morningtide~0
+Inspired Sprite~Morningtide~0
+Knowledge Exploitation~Morningtide~0
+Latchkey Faerie~Morningtide~0
+Merrow Witsniper~Morningtide~0
+Mind Spring~Morningtide~0
+Mothdust Changeling~Morningtide~0
+Negate~Morningtide~0
+Nevermaker~Morningtide~0
+Notorious Throng~Morningtide~0
+Research the Deep~Morningtide~0
+Sage of Fables~Morningtide~0
+Sage's Dousing~Morningtide~0
+Sigil Tracer~Morningtide~0
+Slithermuse~Morningtide~0
+Stonybrook Banneret~Morningtide~0
+Stream of Unconsciousness~Morningtide~0
+Supreme Exemplar~Morningtide~0
+Thieves' Fortune~Morningtide~0
+Vendilion Clique~Morningtide~0
+Waterspout Weavers~Morningtide~0
+Auntie's Snitch~Morningtide~0
+Bitterblossom~Morningtide~0
+Blightsoil Druid~Morningtide~0
+Earwig Squad~Morningtide~0
+Fendeep Summoner~Morningtide~0
+Festercreep~Morningtide~0
+Final-Sting Faerie~Morningtide~0
+Frogtosser Banneret~Morningtide~0
+Maralen of the Mornsong~Morningtide~0
+Mind Shatter~Morningtide~0
+Moonglove Changeling~Morningtide~0
+Morsel Theft~Morningtide~0
+Nightshade Schemers~Morningtide~0
+Noggin Whack~Morningtide~0
+Offalsnout~Morningtide~0
+Oona's Blackguard~Morningtide~0
+Pack's Disdain~Morningtide~0
+Prickly Boggart~Morningtide~0
+Pulling Teeth~Morningtide~0
+Revive the Fallen~Morningtide~0
+Scarblade Elite~Morningtide~0
+Squeaking Pie Grubfellows~Morningtide~0
+Stenchskipper~Morningtide~0
+Stinkdrinker Bandit~Morningtide~0
+Violet Pall~Morningtide~0
+Warren Weirding~Morningtide~0
+Weed-Pruner Poplar~Morningtide~0
+Weirding Shaman~Morningtide~0
+Boldwyr Heavyweights~Morningtide~0
+Boldwyr Intimidator~Morningtide~0
+Borderland Behemoth~Morningtide~0
+Brighthearth Banneret~Morningtide~0
+Countryside Crusher~Morningtide~0
+Fire Juggler~Morningtide~0
+Hostile Realm~Morningtide~0
+Kindled Fury~Morningtide~0
+Lightning Crafter~Morningtide~0
+Lunk Errant~Morningtide~0
+Mudbutton Clanger~Morningtide~0
+Pyroclast Consul~Morningtide~0
+Rage Forger~Morningtide~0
+Release the Ants~Morningtide~0
+Rivals' Duel~Morningtide~0
+Roar of the Crowd~Morningtide~0
+Seething Pathblazer~Morningtide~0
+Sensation Gorger~Morningtide~0
+Shard Volley~Morningtide~0
+Shared Animosity~Morningtide~0
+Spitebellows~Morningtide~0
+Stingmoggie~Morningtide~0
+Stomping Slabs~Morningtide~0
+Sunflare Shaman~Morningtide~0
+Taurean Mauler~Morningtide~0
+Titan's Revenge~Morningtide~0
+Vengeful Firebrand~Morningtide~0
+War-Spike Changeling~Morningtide~0
+Ambassador Oak~Morningtide~0
+Bosk Banneret~Morningtide~0
+Bramblewood Paragon~Morningtide~0
+Chameleon Colossus~Morningtide~0
+Cream of the Crop~Morningtide~0
+Deglamer~Morningtide~0
+Earthbrawn~Morningtide~0
+Elvish Warrior~Morningtide~0
+Everbark Shaman~Morningtide~0
+Fertilid~Morningtide~0
+Game-Trail Changeling~Morningtide~0
+Gilt-Leaf Archdruid~Morningtide~0
+Greatbow Doyen~Morningtide~0
+Heritage Druid~Morningtide~0
+Hunting Triad~Morningtide~0
+Leaf-Crowned Elder~Morningtide~0
+Luminescent Rain~Morningtide~0
+Lys Alana Bowmaster~Morningtide~0
+Orchard Warden~Morningtide~0
+Reach of Branches~Morningtide~0
+Recross the Paths~Morningtide~0
+Reins of the Vinesteed~Morningtide~0
+Rhys the Exiled~Morningtide~0
+Scapeshift~Morningtide~0
+Unstoppable Ash~Morningtide~0
+Walker of the Grove~Morningtide~0
+Winnower Patrol~Morningtide~0
+Wolf-Skull Shaman~Morningtide~0
+Cloak and Dagger~Morningtide~0
+Diviner's Wand~Morningtide~0
+Door of Destinies~Morningtide~0
+Obsidian Battle-Axe~Morningtide~0
+Thornbite Staff~Morningtide~0
+Veteran's Armaments~Morningtide~0
+Murmuring Bosk~Morningtide~0
+Mutavault~Morningtide~0
+Primal Beyond~Morningtide~0
+Rustic Clachan~Morningtide~0

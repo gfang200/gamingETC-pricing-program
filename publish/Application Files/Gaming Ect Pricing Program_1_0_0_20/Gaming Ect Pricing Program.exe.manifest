@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gaming Ect Pricing Program.exe" version="1.0.0.20" publicKeyToken="10a47bf521b429c8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="MTG White.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gaming Ect Pricing Program" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gaming Ect Pricing Program.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gaming Ect Pricing Program.exe" size="893432">
+      <assemblyIdentity name="Gaming Ect Pricing Program" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h3du7jUkLl8Dl9kGMIki55XxHl+hEm9A+iTXAUtFoc4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AllSets.json" size="16992066">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cMMVPgcDj0jQTcA7SliisUsIrkhy6rOgXLTl1DSSF5U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cardExtractor.py" size="463">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8UMgtke40nQQ1k/aKUtyJYBcUg9cC66GDWa5UeL/rUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="downArrow.png" size="37368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6zmq1jzc3OZDMZGhl/24BFWn7TR6CDV/2aDMDd2m/D8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Gaming Ect Pricing Program.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GamingETC Pricing Program Manual 2016.pdf" size="1645753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nib5yLe2FnLYbqtSdjxhq4gBsj2xQBnk0KJrbtSfMig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GamingETCpricing-94a6ac17df21.json" size="2343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZAapTIGnOCqOgiah9oNbYa480QUYjmI57HtZuXIiRCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="gdata.py" size="2212">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0b4a6XkDYQ/lG5MSHb5m02UXVX/3y9MkkNNfa/bV3Xs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MTG White.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G1zTIy9bu4APcwiOBeI2+qCQOCDSJ65yx3JQHOMbaeQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mtgStockQuer.py" size="1929">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZKECbGlog3OoXRKKldxNTVruWAQcTgivF9keE/bnn4I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="setExtractor.py" size="256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2WtOhFbmmYsQGPp+LpwDB+XIR69uaFxCDbHEbZuqu6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="setList.txt" size="3653">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OqkRxLDhKC6dEMQAkhTb6dqtHeOq/tIS5BVSgDyhO78=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="step1.py" size="631">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X7ESkjV6WuxgG7hLxEd1/LMxdSG/pvQLoz6rwsQmGDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="step2.ahk" size="3241">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r0l2+Lf20jgXcu9q/acDPtWw9x3wXzVsv0s4ZcKRe1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="step3.py" size="7230">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zEaS7I97xIwatfPRAeT1y3tHwf6OCc8tDE/h8/kUQ3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="tools.py" size="276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UunHKLoGf+Oec7sNroN2DlXi/tVYY7RL5LxGmO5oOTQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="upArrow.png" size="36011">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hh4xebF0qJ+XVcE7NlS7hNppGVPon3mLJRgDc7WRBdM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DRAGON-LAPTOP\George Fang" issuerKeyHash="082f7c43e9f4e780fe056bb586f9cd44ffe6ec6f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HBEtliV5XXzycoeFM/MNDp/pO3VLvYoB5mBViviOgkM=</DigestValue></Reference></SignedInfo><SignatureValue>ZwB60cmpg0gioEMyr7o3fbklTOPb26+kgRRuOay1Bt8MXTmPiB2bQSU5u4s8spPakluxNPsYf7RQivhNXrHEixnkQg0rjhUwSzX9nzAj1z+2NSK6Si2uh+qiRxc9vJY744n01iv54Fu8Bx+2t2Hpm87OLwDVkRup1EFvvBfW4n8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l6NNZLisHbhWpUnnI6wAeZIoebn0ys2fdqhluPBa1Yy9lkADbSM8bymADyev1SUaqWhl+CtE5HkWPGxgTMPtL9MZdw4YJGeCDXwO0noCN/MQLL7qhLCxXCGUmjadN9NWpqqLscAWw3dr3sUwtk7i3HnO2Og5YLIVuythNDuo5BE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="43828ef88a5560e6018abd4b753be99f0e0df333858772f27c5d7925962d111c" Description="" Url=""><as:assemblyIdentity name="Gaming Ect Pricing Program.exe" version="1.0.0.20" publicKeyToken="10a47bf521b429c8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DRAGON-LAPTOP\George Fang</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pf6PqAZ0k2cWZ/LZjffwpYBrmLEc7PliUAoDLQnH+sA=</DigestValue></Reference></SignedInfo><SignatureValue>MElcVvwgPR9ER5K38bgkHVLKEccwEsIGqXbKnkdzIhXlaXDTgQT7wSPKToUze+DVtQkyf9RVv/QPFS4pQcFuzsuVI2CxvLLtYgzzCfGgDdxKX8x+zSb41HCAWCT2y0bNz9dP0UxlmJgQvcksSBkR5zyN+IhyaakmrcXmkDYWr5M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l6NNZLisHbhWpUnnI6wAeZIoebn0ys2fdqhluPBa1Yy9lkADbSM8bymADyev1SUaqWhl+CtE5HkWPGxgTMPtL9MZdw4YJGeCDXwO0noCN/MQLL7qhLCxXCGUmjadN9NWpqqLscAWw3dr3sUwtk7i3HnO2Og5YLIVuythNDuo5BE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQFj5DIxvS9bNKSw0WENh0uDANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABSAEEARwBPAE4ALQBMAEEAUABUAE8AUABcAEcAZQBvAHIAZwBlACAARgBhAG4AZzAeFw0xNjA2MjEyMDU0MDVaFw0xNzA2MjIwMjU0MDVaMD0xOzA5BgNVBAMeMgBEAFIAQQBHAE8ATgAtAEwAQQBQAFQATwBQAFwARwBlAG8AcgBnAGUAIABGAGEAbgBnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXo01kuKwduFalSecjrAB5kih5ufTKzZ92qGW48FrVjL2WQANtIzxvKYAPJ6/VJRqpaGX4K0TkeRY8bGBMw+0v0xl3DhgkZ4INfA7SegI38xAsvuqEsLFcIZSaNp0301amqouxwBbDd2vexTC2TuLcec7Y6DlgshW7K2E0O6jkEQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAADgB2uSsOeuGcM49IZS3ypWIg7g3cVooax3a+gMnfpjt+6C47oIZ/Kw/Xytbh6Y1I+AXiOZskpBtSt3lFtyqDkr2atpzyGXx5X/LShvpydUz5lKwoU5ZXd/qbeUwilcfE7eH+33MgtO5X7yFIXWjgwdZNg5/NizUnaiy9MUc7x2</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,192 @@
+import csv
+from tools import *
+import re
+
+def extractPrice():
+    priceHash = {}
+    rawData= open('priceList.csv', 'rU').read()
+    savedData = open('compiledList.csv','w')
+    savedData.write("Card Name,Set Name,Market Price,Median Price\n")
+    rawData = rawData[:-1]
+
+    splitData = rawData.split("~")
+
+
+    for i in range(len(splitData)):
+        splitData[i]=splitData[i].split(",")
+##        if "not match" in splitData[i][2]:
+##            print "FAIL SPELLING"
+##            print splitData[i][0]
+
+##    print splitData
+##    print splitData[0]
+
+    for data in splitData:
+##        print data[2].split("Market Price")[1].split("")
+        if "Sorry but that page does not exist on our site!" in data[2]:
+            marp = '9999'
+            medp = '9999'
+        elif "Pardon our" in data[2]:
+            marp = '9999'
+            medp = '9999'
+        else:
+            marp = re.findall("Market Price[ ]*\$[0-9]+.[0-9][0-9]",data[2])[0].split("$")[1]
+            medp = re.findall("Listed Median[ ]*\$[0-9]+.[0-9][0-9]",data[2])[0].split("$")[1]
+
+
+        cleanPrices = [marp,medp]
+        priceHash[(data[0],data[1])]= (float(cleanPrices[0].strip()),float(cleanPrices[1].strip()))
+        
+##        break
+        
+##        for Cset in cardSets:
+##            searchName = "Leyline of the Void"
+##            
+####            if searchName in data[0]:
+####                print data[2]
+##
+##            ##This is to correct Magic 2011 m11 into Magic 2011 so that the program can pick it up
+##            if "Magic" in data[1]:
+##                setCorrected = data[1][:-4]
+##            else:
+##                setCorrected = data[1]
+##
+##            if searchName in Cset:
+##                    print Cset
+####                    print setCorrected
+##        
+##            if setCorrected.lower() in Cset.lower().replace("'","") and "Median" in Cset and "Rarity: T" not in Cset:
+##                #print data[0]
+##                if searchName in Cset:
+##                    print Cset
+##                prices = Cset.split("Low")[0]
+##                cleanPrices = prices.replace("\n","").replace(" Median","").split("$")
+##                priceHash[(data[0],data[1])]= (float(cleanPrices[1].strip()),float(cleanPrices[2].strip()))
+
+##    print priceHash
+    for key in priceHash.keys():
+        #print key
+        #print priceHash[key]
+##        print "The card,",key[0],"in set,",key[1],"has prices:"
+##        print "Market",'${:,.2f}'.format(priceHash[key][0])
+##        print "Median",'${:,.2f}'.format(priceHash[key][1])
+##        print
+
+        savedData.write(key[0]+","+key[1]+","+str(priceHash[key][0])+","+str(priceHash[key][1])+"\n")
+
+    savedData.close()
+##    print joben
+
+def tablePrint(data):
+    html="<TABLE border=1>"
+    html+="<TR><TH>Card Name</TH><TH>Card Set</TH><TH>Case Price</TH><TH>TCG Median</TH><TH>TCG Market</TH><TH>Direction</TH></TR>"
+    for point in data:
+##        if point[2]>10 and abs(point[2]-point[3]) :
+##            html+="<TR bgcolor='D2B4DE'>"
+##        else:
+##            html+="<TR bgcolor='ABEBC6'>"
+
+        ##These are the rules for formatting tables
+        if point[2] >= 10:
+            if abs(point[2]-point[3])>1:
+                if point[2]>point[3]:
+                    html+="<TR bgcolor='D2B4DE'>"
+                else:
+                    html+="<TR bgcolor='ABEBC6'>"
+            else:
+                html+="<TR>"
+        elif point[2]<10 and point[2]>2:
+            if abs(point[2]-point[3])>.5:
+                if point[2]>point[3]:
+                    html+="<TR bgcolor='D2B4DE'>"
+                else:
+                    html+="<TR bgcolor='ABEBC6'>"
+            else:
+                html+="<TR>"
+                
+        for peice in point:
+            html+="<TD>"
+            if isinstance(peice,basestring):
+                html+=peice
+            else:
+                html+='${:,.2f}'.format(peice)
+            html+="</TD>"
+        if point[2]>point[3]:
+            html+='<TD><img src="downArrow.png" style="width:25px;height:25px;"></TD>'
+        else:
+            html+='<TD><img src="upArrow.png" style="width:25px;height:25px;"></TD>'
+            
+        html+="</TR>"
+    html+="</TABLE>"
+    return html
+
+def genTable():
+    tcgPrices=open("compiledList.csv","r")
+    casePrices=open("case prices.csv","r")
+    tcgPriceList=[]
+    casePriceList=[]
+
+    tcgPriceReader = csv.reader(tcgPrices)
+    casePriceReader = csv.reader(casePrices,delimiter="~")
+
+    for price in tcgPriceReader:
+        tcgPriceList.append(price)
+
+    for price in casePriceReader:
+        #Warning, shittpy programming, there should only be 2 records per line so
+        #if there are 3 that means that a comma broke the line where it shouldnt have
+        if len(price)>=4:
+            casePriceList.append([price[0]+","+price[1],price[2],price[3]])
+        else:
+            casePriceList.append(price)
+
+    highlights = []
+    allCards = []
+    finishedCards = []
+    for price in casePriceList:
+##        print price
+        caseCardName = price[0]
+        try:
+            casePrice = float(price[1])
+        except:
+            casePrice = 9999
+        for tcgPrice in tcgPriceList:
+##            print price
+##            print tcgPrice
+            
+            if tcgPrice[0]==cleanInput(price[0]) and tcgPrice[1]==cleanInput(price[2]):
+                tcgCardName = tcgPrice[0]
+                caseCardSet = price[2]
+                tcgMarket = float(tcgPrice[2])
+                tcgMedian = float(tcgPrice[3])
+                
+##                finishedCards.append((tcgCardName, caseCardSet))
+##                print finishedCards
+
+        if tcgCardName != cleanInput(caseCardName):
+##            print "Error", tcgCardName, caseCardName
+            caseCardSet = "ERROR, MANUALLY UPDATE"
+            tcgMarket = 9999
+            tcgMedian = 9999
+            
+
+        if abs(tcgMedian-casePrice)>1 and casePrice > 2:
+    ##        print "The card",caseCardName,"is priced at",'${:,.2f}'.format(casePrice),"it is currently at Median price",'${:,.2f}'.format(tcgMedian),"- the market price is",'${:,.2f}'.format(tcgMarket),"== The difference from median is",'${:,.2f}'.format(abs(tcgMedian-casePrice))
+            highlights.append((caseCardName,caseCardSet,casePrice,tcgMedian,tcgMarket))
+        finishedCards.append((caseCardName,caseCardSet,casePrice,tcgMedian,tcgMarket))
+
+           
+
+
+
+    output = open("outputFile.html", "w")
+    output.write("<HTML><BODY><H1>Cards with > $1 Difference in Price</H1>")
+    output.write(tablePrint(highlights))
+    output.write("<H1>All Cards</H1>")
+    output.write(tablePrint(finishedCards))
+    output.write("</BODY></HTML>")
+    output.close()
+
+
+extractPrice()
+genTable()
