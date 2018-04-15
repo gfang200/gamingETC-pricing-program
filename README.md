@@ -10,7 +10,7 @@ This presents a unique challenge to local game stores, brick and mortar location
 
 Gaming ETC© is one of the top 10 biggest local game store's in the world, with an inventory of over 10,000 unique cards, collectively worth over $100,000 in market value. A significant portion of this market value is contained within the top 200 cards, sometimes valued at up to $10,000 for a single card. These cards, making the highest margins for the owner, are displayed in cases with clearly marked price tags. Once a customer declares intent to purchase one of these cards at the marked price, it is difficult to change the price without creating a poor customer experience. <br/>
 
-Since the prices for these large ticket cards are often the most volatile to price movements, there is a real business need to always have to most up to date market prices for cards.
+The prices for these large ticket cards are often the most volatile to price movements, so there is a real business need to always have to most up to date market prices for cards.
 
 The Current Solution
 --------------- 
