@@ -1,6 +1,6 @@
 Case Study: MTG Pricing Program
 ============
-The MTG Pricing Program is an end to end business solution I built for small business owner, Michelle Cove, over a 2 month engagement with her business, Gaming ETC, in 2016. The goal of the end product was to help her optimize the daily re-pricing of her inventory of over 10,000 unique cards, collectively worth over $100,000.
+The MTG Pricing Program is an end to end business solution I built for local game store owner, Michelle Cove, over a 2 month engagement with her small business in 2016. The goal of the end product was to help her optimize the daily re-pricing of her inventory of over 10,000 unique cards, collectively worth over $100,000.
 
 Problem Statement
 --------------- 
@@ -20,25 +20,34 @@ This strategy is extremely weak against small price movements over time, and ris
 
 The Ideal Solution
 --------------- 
-Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on a change of either relative value or absolute value.
+Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on a change of value.
 
 The Challenge
 --------------- 
 As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a real competitive advantage as the actor who can best optimize on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect their data and their market position. <br/><br/>
 
-The largest, and most reputable of these data holding companies, www.tcgplayer.com, contracts Distil Networks (https://www.distilnetworks.com/) to prevent bots from scraping their website. Their methods involve the following:
+The largest, and most reputable of these data holding companies, www.tcgplayer.com, contracts Distil Networks© (https://www.distilnetworks.com/) to prevent bots from scraping their website. Their methods involve the following:
 * Captchas
 * Javascript injections
 * Header request analysis
 * Browser validation
 * Digital fingerprinting
 <br/>
-In the past, Gaming ETC has tried (unsuccessfully) to scrape their website using conventional techniques (urllib, selenium, api requests, etc)
+In the past, Gaming ETC© has tried (unsuccessfully) to scrape the Tcgplayer© website using conventional techniques. (urllib, selenium, api requests, etc)
 
 The Proposed Solution
 --------------- 
-Custom designed software utilizing COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts that interface with the application. These script injections allow the automated browsing of web pages in a manner indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
+Custom designed software utilizing COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts into the Windows operating system, that then interface with the application. These script injections allow the automated browsing of web pages in a manner completely indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
 
-The Implementation
+The Implementation (Core Stack)
 --------------- 
-Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on either relative value or absolute value.
+#### gdata.py ####
+Gdata.py is responsible for interfacing with the main database system used by Gaming ETC (Google Sheets). It pulls data of current in-store card prices which will be compared with new scraped prices in order to identify cards with a high delta in value.
+#### step1.py ####
+Step 1 cleans the list of cards pulled by gdata.py and provides an output that can be consumed by the scraping engine.
+#### step2.ahk ####
+Step 2 is where the 'magic' happens. Using the object, ComObjCreate("InternetExplorer.Application"), we can interact directly with the component object model of the internet explorer. Since AHK is a scripting language, we don't bother trying to parse the HTML at this step, we just record the whole thing. Most importantly, we hide the browser, but when the script is inevitably presented with a captcha for speed or volume, we will unhide the browser and present the user with an alert to complete the captcha challenge to continue.
+#### step3.py ####
+Use regular expressions to extract the appropriate data. Generate a dynamic HTML page to present the insights and recommendations to the user.
+#### User Experience/Interface ####
+The user interface is a desktop executable built in VBA. You can learn more about how to use the product and the different features by looking at the direction manual, "GamingETC Pricing Program Manual 2016".
