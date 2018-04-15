@@ -1,6 +1,6 @@
 Case Study: MTG Pricing Program
 ============
-The MTG Pricing Program is an end to end business solution I built for local game store owner, Michelle Cove, over a 2 month engagement with her small business in 2016. The goal of the end product was to help her optimize the daily re-pricing of her inventory of over 10,000 unique cards, collectively worth over $100,000.
+The MTG Pricing Program is an end to end business solution built for local game store owner, Michelle Cove, over a 2 month engagement with her small business in 2016. The goal of the end product was to help her optimize the daily re-pricing of her inventory of over 10,000 unique cards, collectively worth over $100,000.
 
 Problem Statement
 --------------- 
