@@ -37,7 +37,7 @@ In the past, Gaming ETC© has tried (unsuccessfully) to scrape the Tcgplayer© w
 
 The Proposed Solution
 --------------- 
-Custom designed software utilizing COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts into the Windows operating system, that then interface with the application. These script injections allow the automated browsing of web pages in a manner completely indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
+Custom designed software utilizing the COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts into Windows that then interface with the application. These script injections allow the automated browsing of web pages in a manner completely indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
 
 The Implementation (Core Stack)
 --------------- 
