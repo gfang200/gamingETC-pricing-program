@@ -52,4 +52,4 @@ Use regular expressions to extract the appropriate data. Generate a dynamic HTML
 #### User Experience/Interface ####
 The user interface is a desktop executable built in VBA. You can learn more about how to use the product and the different features by looking at the direction manual, "GamingETC Pricing Program Manual 2016".
 <br/><br/>
-For a better understanding of the product, definitely check out the documentation in GamingETC Pricing Program Manual 2016!
+For screenshots, you can also check out the documentation in GamingETC Pricing Program Manual 2016!
