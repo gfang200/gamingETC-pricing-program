@@ -18,7 +18,7 @@ Use word of mouth, news of large price movements, and community events to determ
 
 This strategy is extremely weak against small price movements over time, and risks exposure to price fluctuations that are significant in dollar value, but not relative value to the original price.
 
-The Ideal Solution
+The Proposal
 --------------- 
 Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull to push notification on price changes, enabling fast response on a change of value.
 
@@ -35,7 +35,7 @@ The largest, and most reputable of these data holding companies, www.tcgplayer.c
 
 In the past, Gaming ETC© has tried (unsuccessfully) to scrape the Tcgplayer© website using conventional techniques. (urllib, selenium, api requests, etc)
 
-The Proposed Solution
+The Solution
 --------------- 
 Custom designed software utilizing the COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts into Windows that then interface with the application. These script injections allow the automated browsing of web pages in a manner completely indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
 
