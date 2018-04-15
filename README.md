@@ -20,7 +20,7 @@ This strategy is extremely weak against small price movements over time, and ris
 
 The Ideal Solution
 --------------- 
-Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on a change of value.
+Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull to push notification on price changes, enabling fast response on a change of value.
 
 The Challenge
 --------------- 
