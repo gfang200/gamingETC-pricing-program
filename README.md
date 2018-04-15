@@ -32,7 +32,7 @@ The largest, and most reputable of these data holding companies, www.tcgplayer.c
 * Header request analysis
 * Browser validation
 * Digital fingerprinting
-<br/>
+
 In the past, Gaming ETC© has tried (unsuccessfully) to scrape the Tcgplayer© website using conventional techniques. (urllib, selenium, api requests, etc)
 
 The Proposed Solution
