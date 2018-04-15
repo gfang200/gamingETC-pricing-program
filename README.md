@@ -4,17 +4,17 @@ The MTG Pricing Program is an end to end business solution I built for a local g
 
 Problem Statement
 --------------- 
-Magic the Gathering© is a trading card game that has been operated by Wizards of the Coast© since 1993. Since it's inception, over 12,000 unique cards have been printed, played and sold. Similar to a stock market, the value of these cards fluctuates daily based on the 'meta' (which cards are currently popular) and 'rarity' (the volume of cards in existance). Unlike stocks, which have transitioned to a digital asset in the 21st century, Magic the Gathering© cards still exist primarily as a physical asset.<br/><br/>
+Magic the Gathering© is a trading card game that has been operated by Wizards of the Coast© since 1993. Since it's inception, over 12,000 unique cards have been printed, played and sold. Similar to a stock market, the value of these cards fluctuates daily based on the 'meta' (which cards are currently popular) and 'rarity' (the volume of cards in existance). Unlike stocks, which have transitioned to a digital asset in the 21st century, Magic the Gathering© cards still exist primarily as a physical asset.<br/>
 
-This presents a unique challenge to local game stores, brick and mortar locations who make their primary margins by optimizing the transaction between players looking to sell their old cards and players looking to buy new cards. Since Magic© cards are bought and sold as physical goods in a fluctuating price market, having up to date pricing on the trading cards is crucial to operating a successful business.<br/><br/>
+This presents a unique challenge to local game stores, brick and mortar locations who make their primary margins by optimizing the transaction between players looking to sell their old cards and players looking to buy new cards. Since Magic© cards are bought and sold as physical goods in a fluctuating price market, having up to date pricing on the trading cards is crucial to operating a successful business.<br/>
 
-Gaming ETC© is one of the top 10 biggest local game store's in the world, with an inventory of over 10,000 unique cards, collectively worth over $100,000 in market value. A significant portion of this market value is contained within the top 200 cards, sometimes valued at up to $10,000 for a single card. These cards, making the highest margins for the owner, are displayed in cases, with clearly marked price tags. Once a customer declares intent to purchase one of these cards at the marked price, it is difficult to change the price without creating a poor customer experience. <br/><br/>
+Gaming ETC© is one of the top 10 biggest local game store's in the world, with an inventory of over 10,000 unique cards, collectively worth over $100,000 in market value. A significant portion of this market value is contained within the top 200 cards, sometimes valued at up to $10,000 for a single card. These cards, making the highest margins for the owner, are displayed in cases, with clearly marked price tags. Once a customer declares intent to purchase one of these cards at the marked price, it is difficult to change the price without creating a poor customer experience. <br/>
 
 Since the prices for these large ticket cards are often times the most volatile to price movements and make up the most margins, there is a real business need to always have to most up to date market price for these cards.
 
 The Current Solution
 --------------- 
-Use word of mouth, news of large price movements, and community events to determine featured cards that need repricing.<br/><br/>
+Use word of mouth, news of large price movements, and community events to determine featured cards that need repricing.<br/>
 
 This strategy is extremely weak against small price movements over time, and risks exposure to price fluctuations that are significant in dollar value, but not relative value to the original price.
 
@@ -24,7 +24,7 @@ Use web scraping technology and market analytics to determine the fair market va
 
 The Challenge
 --------------- 
-As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a real competitive advantage as the actor who can best optimize on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect their data and their market position. <br/><br/>
+As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a real competitive advantage as the actor who can best optimize on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect their data and their market position. <br/>
 
 The largest, and most reputable of these data holding companies, www.tcgplayer.com, contracts Distil Networks© (https://www.distilnetworks.com/) to prevent bots from scraping their website. Their methods involve the following:
 * Captchas
