@@ -8,30 +8,37 @@ Magic the Gathering© is a trading card game that has been operated by Wizards o
 
 This presents a unique challenge to local game stores, brick and mortar locations who make their primary margins by optimizing the transaction between players looking to sell their old cards, and players looking to buy new cards. Since Magic© cards are bought and sold as physical goods in a fluctuating price market, having up to date pricing on the trading cards is crucial to operating a successful business.<br/><br/>
 
-Gaming ETC is one of the top 10 biggest local game store's in the world, with an inventory of over 10,000 unique cards, collectively worth over $100,000 in market value. A significant portion of this market value is contained within the top 200 cards, sometimes valued at up to $10,000 for a single card. These cards, making the highest margins for the owner, are displayed in cases, with clearly marked price tags. Once a customer declares intent to purchase one of these cards at the marked price, it is difficult to change the price without creating a poor customer experience. <br/><br/>
+Gaming ETC© is one of the top 10 biggest local game store's in the world, with an inventory of over 10,000 unique cards, collectively worth over $100,000 in market value. A significant portion of this market value is contained within the top 200 cards, sometimes valued at up to $10,000 for a single card. These cards, making the highest margins for the owner, are displayed in cases, with clearly marked price tags. Once a customer declares intent to purchase one of these cards at the marked price, it is difficult to change the price without creating a poor customer experience. <br/><br/>
 
-Since the prices for these large ticket cards are often times the most volatile to price movements, this presents a real business need to have to most up to date market price for these cards.
+Since the prices for these large ticket cards are often times the most volatile to price movements and make up the most margins, there is a real business need to always have to most up to date market price for these cards.
 
-Sample Projects
+The Current Solution
 --------------- 
-#### Scraping and Scripting #### 
-A select sample of scripts that I've written to scrape the web. It includes examples of:  
-* Working with iFrames in Selenium
-* Overcoming shadow root nodes in the DOM by dynamically generating xdotool shell scripts.
-* Recursive search in web scraping
-* Basic URLLib usage to scrape metadata & download images 
+Use word of mouth, news of large price movements, and community events to determine featured cards that need repricing.<br/><br/>
 
-#### DatastudioTools #### 
-This one's got a pretty cool story! While doing consulting work for Accenture, one of my clients had her heart set on downloading graphs from one of Google's analytics tool, Datastudio. Unfortunately, the product did not support this feature. <br/><br/>The rational course of action here would be to give up, but instead of that I build a tool that pulls in SVG images, extracts the vector & text data, and finally redraws the image on a PNG, thus rendering the image in a downloadable state. Bonus points since it supported transparency layers too!
+This strategy is extremely weak against small price movements over time, and risks exposure to price fluctuations that are significant in dollar value, but not relative value to the original price.
 
-#### GameLTVModel #### 
-This is an early version of a model I developed alongside a data scientist. It is designed to calculate the player lifetime value for a mobile game based on the initial actions of the user. As the data engineer on this engagement, my main role on the team was to translate the model into Python code, transform training data into a consumable state, build back-testing modules, and deploy the code into a live production environment.  <br/><br/>*Note that this is an alpha version of the model, for confidentiality reasons, I can't share the full model!
+The Ideal Solution
+--------------- 
+Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on a change of either relative value or absolute value.
 
-#### selectWorksFromFreemo #### 
-A few select code samples from a WebApp project I've been working on recently in NodeJS. In summary, it's an app that runs selenium scripts on a scalable kubernetes cloud container engine to interact with web models at scale. The project's very very early in pre-alpha-closed-beta, but you can still check out the site @ www.tryfreemo.com :)
+The Challenge
+--------------- 
+As a physical first asset, the market data for these cards is considered a commodity. Companies that hold this data have a real competitive advantage as the actor who can best optimize on the market value of these cards. Due to this, several preventative measures have been employed by these companies to protect their data and their market position. <br/><br/>
 
-#### excelHomeworkHacking #### 
-This one is pretty troll. I was a TA for a business excel class once where the professors were **SUPER** proud of these xslm macros they created to detect cheating in their classrooms. They would spend a few hours every semester talking about how the system couldn't be beaten. After watching some bankers use excel without a mouse, I used a windows scripting language that supported hardware emulation to create a system that emulated keyboard inputs to complete homework assingments.  I never distributed this to students, since I don't condone cheating, but it was pretty trollerino to show the professors that I could beat their system.
+The largest, and most reputable of these data holding companies, www.tcgplayer.com, contracts Distil Networks (https://www.distilnetworks.com/) to prevent bots from scraping their website. Their methods involve the following:
+* Captchas
+* Javascript injections
+* Header request analysis
+* Browser validation
+* Digital fingerprinting
+<br/>
+In the past, Gaming ETC has tried (unsuccessfully) to scrape their website using conventional techniques (urllib, selenium, api requests, etc)
 
-#### BONUSreallyCoolExcelModel #### 
-This one's not even code. I found this in one of my old desktop backups while looking for cool stuff to include in my GitHub.    <br/><br/>Before I learned how to code, I learned how to excel. I also didn't let my lack of knowledge of fully functional programming languages stop me from doing cool stuff. One of the things I noticed through observation is that some professors are more lenient graders than other professors. Then, I built this slick, 9 page excel model that took anonymized student GPA data and determined the best professor for each class based on difficulty xD.
+The Proposed Solution
+--------------- 
+Custom designed software utilizing COM (Component Object Model) design of Microsoft applications (Internet Explorer in this case) in order to inject scripts that interface with the application. These script injections allow the automated browsing of web pages in a manner indistinguishable from regular browsing. The script never interfaces with TCGplayer.com or the acting browser, thus evades all data scraping prevention measures.
+
+The Implementation
+--------------- 
+Use web scraping technology and market analytics to determine the fair market value of the top 200 cards in real time. Move from pull notification to push notification on price changes to enable fast response on either relative value or absolute value.
