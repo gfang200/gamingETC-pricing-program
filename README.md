@@ -4,7 +4,7 @@ The MTG Pricing Program is an end to end business solution I built for a local g
 
 Problem Statement
 --------------- 
-Magic the Gathering© is a trading card game that has been operated by Wizards of the Coast© since 1993. Since it's inception, over 12,000 unique cards have been printed, played and sold. Similar to a stock market, the value of these cards fluctuates daily based on the 'meta' (which cards are currently popular) and 'rarity' (the volume of cards in existance). Unlike the stock market, which has transitioned to a digital first market in the 21st century, Magic the Gathering© cards still exist primarily as a physical asset.<br/><br/>
+Magic the Gathering© is a trading card game that has been operated by Wizards of the Coast© since 1993. Since it's inception, over 12,000 unique cards have been printed, played and sold. Similar to a stock market, the value of these cards fluctuates daily based on the 'meta' (which cards are currently popular) and 'rarity' (the volume of cards in existance). Unlike the stock market, which has transitioned to a digital asset in the 21st century, Magic the Gathering© cards still exist primarily as a physical asset.<br/><br/>
 
 This presents a unique challenge to local game stores, brick and mortar locations who make their primary margins by optimizing the transaction between players looking to sell their old cards and players looking to buy new cards. Since Magic© cards are bought and sold as physical goods in a fluctuating price market, having up to date pricing on the trading cards is crucial to operating a successful business.<br/><br/>
 
